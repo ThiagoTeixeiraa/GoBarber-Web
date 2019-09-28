@@ -1,8 +1,8 @@
 module.exports = {
   env: {
+    browser: true,
     es6: true,
     jest: true,
-    browser: true,
   },
   extends: ['airbnb', 'prettier', 'prettier/react'],
   globals: {
@@ -32,12 +32,5 @@ module.exports = {
     'no-console': ['error', { allow: ['tron'] }],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-  },
-  settings: {
-    'import/resolver': {
-      'babel-plugin-root-import': {
-        rootPathSuffix: 'src',
-      },
-    },
   },
 };

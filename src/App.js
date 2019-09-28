@@ -1,7 +1,15 @@
-import React from "react";
+import React from 'react';
+import { Router } from 'react-router-dom';
+
+import Routes from './routes';
+import History from './services/history';
 
 function App() {
-  return <div className="app"></div>;
+  return (
+    <Router history={History}>
+      <Routes />
+    </Router>
+  );
 }
 
 export default App;
