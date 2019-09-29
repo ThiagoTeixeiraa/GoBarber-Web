@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Form, Input } from '@rocketseat/unform';
 import * as Yup from 'yup';
 
-import { signInRequest } from '~/store/modules/auth/actions';
+import { signUpRequest } from '~/store/modules/auth/actions';
 
 import logo from '~/assets/logo.svg';
 
@@ -22,7 +22,7 @@ export default function SignUp() {
   const dispatch = useDispatch();
 
   function handleSubmit({ name, email, password }) {
-    dispatch(signInRequest(name, email, password));
+    dispatch(signUpRequest(name, email, password));
   }
 
   return (
