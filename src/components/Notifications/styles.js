@@ -15,13 +15,13 @@ export const Badge = styled.button`
     props.hasUnread &&
     css`
       &::after {
+        content: '';
         position: absolute;
         right: 0;
         top: 0;
         height: 8px;
         width: 8px;
         background: #ff892e;
-        content: '';
         border-radius: 50%;
       }
     `}
