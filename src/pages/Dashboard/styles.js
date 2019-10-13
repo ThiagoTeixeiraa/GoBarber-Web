@@ -57,7 +57,7 @@ export const Time = styled.li`
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.22);
 
     strong {
-      color: ${props => (props.available ? '#999' : '#fff')};
+      color: #fff;
     }
 
     span {
