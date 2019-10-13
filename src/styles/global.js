@@ -23,6 +23,7 @@ html,body,#root{
 
 body{
   -webkit-font-smoothing: antialiased;
+  background: linear-gradient(-90deg,#2f0669,#4235b5);
 }
 
 body,input,button {
